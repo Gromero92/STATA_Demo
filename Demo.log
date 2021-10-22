@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\guill\OneDrive\Desktop\GitHub\STATA_Demo\Demo.log
+  log type:  text
+ opened on:  22 Oct 2021, 17:49:40
+
+.         
+.         ** Loading Data
+.         clear all
+
+.         
+.                 * Load data
+.                 sysuse auto
+(1978 Automobile Data)
+
+. 
+end of do-file
+
