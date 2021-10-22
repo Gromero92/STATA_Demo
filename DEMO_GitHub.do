@@ -7,6 +7,9 @@
 	3) Open a new repository in online account. Create a README.md file where you write what a description of the repository (this is a good practice).
 	4) Clone online repository (the one you just created) on GitHub Desktop. 
 
+	
+	Useful Link: https://medium.com/the-stata-guide/stata-and-github-integration-8c87ddf9784a
+	
 */
 
 ** Set-up
