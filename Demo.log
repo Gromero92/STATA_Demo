@@ -1,8 +1,8 @@
------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  C:\Users\guill\OneDrive\Desktop\GitHub\STATA_Demo\Demo.log
+       log:  C:\Users\Dome\Documents\PRACTICE-JOB\STATA_Demo\Demo.log
   log type:  text
- opened on:  23 Oct 2021, 13:13:56
+ opened on:  23 Oct 2021, 13:17:32
 
 .         
 .         ** Loading Data
@@ -23,4 +23,69 @@ end of do-file
 
 r(111);
 
-. exit, clear
+. do "C:\Users\Dome\AppData\Local\Temp\STD6bfc_000000.tmp"
+
+.                 * Load data
+.                 webuse auto
+(1978 Automobile Data)
+
+. 
+.         * Describe
+.         des auto
+variable auto not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "C:\Users\Dome\AppData\Local\Temp\STD6bfc_000000.tmp"
+
+.         des
+
+Contains data from https://www.stata-press.com/data/r16/auto.dta
+  obs:            74                          1978 Automobile Data
+ vars:            12                          13 Apr 2018 17:45
+                                              (_dta has notes)
+----------------------------------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+----------------------------------------------------------------------------------------------------------------------------------------------
+make            str18   %-18s                 Make and Model
+price           int     %8.0gc                Price
+mpg             int     %8.0g                 Mileage (mpg)
+rep78           int     %8.0g                 Repair Record 1978
+headroom        float   %6.1f                 Headroom (in.)
+trunk           int     %8.0g                 Trunk space (cu. ft.)
+weight          int     %8.0gc                Weight (lbs.)
+length          int     %8.0g                 Length (in.)
+turn            int     %8.0g                 Turn Circle (ft.)
+displacement    int     %8.0g                 Displacement (cu. in.)
+gear_ratio      float   %6.2f                 Gear Ratio
+foreign         byte    %8.0g      origin     Car type
+----------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: foreign
+
+.                 
+. ////////////////////////////////////////////////////////////////////////////////
+> **-------------------------------- START -------------------------------------**
+. ////////////////////////////////////////////////////////////////////////////////
+> 
+. 
+. ** Hola Dome
+. ** Hola Guille
+. 
+. 
+. ////////////////////////////////////////////////////////////////////////////////
+> **--------------------------------- END --------------------------------------**
+. ////////////////////////////////////////////////////////////////////////////////        
+>         
+. * Return commented do-file to Oxford the HR team
+. 
+.         * Close Log and session
+.         log close
+      name:  <unnamed>
+       log:  C:\Users\Dome\Documents\PRACTICE-JOB\STATA_Demo\Demo.log
+  log type:  text
+ closed on:  23 Oct 2021, 13:18:03
+----------------------------------------------------------------------------------------------------------------------------------------------
