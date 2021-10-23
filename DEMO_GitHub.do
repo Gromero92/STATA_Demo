@@ -15,7 +15,7 @@
 ** Set-up
 
 	* Set directory
-	cd "C:\Users\Dome\Documents\PRACTICE-JOB\STATA_Demo"
+	cd "C:\Users\guill\OneDrive\Desktop\GitHub\STATA_Demo"
 
 	* Log file
 	capture log close
@@ -27,14 +27,16 @@
 		* Load data
 		sysuse auto
 
+	* Describe
+	des auto
 		
 ////////////////////////////////////////////////////////////////////////////////
 **-------------------------------- START -------------------------------------**
 ////////////////////////////////////////////////////////////////////////////////
 
 
-** Hola DOme
-*Hola Guille
+** Hola Dome
+** Hola Guille
 
 
 ////////////////////////////////////////////////////////////////////////////////
