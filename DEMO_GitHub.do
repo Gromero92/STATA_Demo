@@ -15,7 +15,7 @@
 ** Set-up
 
 	* Set directory
-	cd "C:\Users\guill\OneDrive\Desktop\GitHub\STATA_Demo"
+	cd "C:\Users\Dome\Documents\PRACTICE-JOB\STATA_Demo"
 
 	* Log file
 	capture log close
